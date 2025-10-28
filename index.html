@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href ="style.css">
+    <title>To-Do List App School Task</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <h1><i class="fas fa-tasks"></i> To-Do List App</h1>
+                <p>Kelola tugas sekolah Anda dengan mudah</p>
+            </div>
+
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="subject-input"><i class="fas fa-book"></i> Mata Pelajaran</label>
+                    <input type="text" id="subject-input" placeholder="Contoh: Matematika, Bahasa Indonesia...">
+                </div>
+                <div class="input-group">
+                    <label for="title-input"><i class="fas fa-pencil-alt"></i> Judul Tugas</label>
+                    <input type="text" id="title-input" placeholder="Deskripsi tugas yang akan dikerjakan...">
+                </div>
+                <div class="input-group">
+                    <label for="date-input"><i class="fas fa-calendar-alt"></i> Tenggat Waktu</label>
+                    <input type="date" id="date-input">
+                </div>
+                <button id="save-btn" class="save-btn">
+                    <i class="fas fa-plus"></i> Tambah Tugas
+                </button>
+            </div>
+
+            <div class="tasks-section">
+                <h3 class="section-title">
+                    <i class="fas fa-list-check"></i> Daftar Tugas
+                </h3>
+                <div class="task-list" id="task-list">
+                    <!-- Task cards akan ditambahkan di sini secara dinamis oleh JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="keyza.js"></script>
+</body>
+</html>
