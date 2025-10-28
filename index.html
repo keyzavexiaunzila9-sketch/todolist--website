@@ -13,25 +13,27 @@
         <div class="card">
             <div class="header">
                 <h1><i class="fas fa-tasks"></i> To-Do List App</h1>
-                <p>Kelola tugas sekolah Anda dengan mudah</p>
+                <p>Kelola tugas sekolah Anda dengan mudah dan efisien</p>
             </div>
 
             <div class="input-section">
-                <div class="input-group">
-                    <label for="subject-input"><i class="fas fa-book"></i> Mata Pelajaran</label>
-                    <input type="text" id="subject-input" placeholder="Contoh: Matematika, Bahasa Indonesia...">
+                <div class="input-grid">
+                    <div class="input-group">
+                        <label for="subject-input"><i class="fas fa-book"></i> Mata Pelajaran</label>
+                        <input type="text" id="subject-input" placeholder="Contoh: Matematika...">
+                    </div>
+                    <div class="input-group">
+                        <label for="title-input"><i class="fas fa-pencil-alt"></i> Judul Tugas</label>
+                        <input type="text" id="title-input" placeholder="Deskripsi tugas...">
+                    </div>
+                    <div class="input-group">
+                        <label for="date-input"><i class="fas fa-calendar-alt"></i> Tenggat Waktu</label>
+                        <input type="date" id="date-input">
+                    </div>
+                    <button id="save-btn" class="save-btn">
+                        <i class="fas fa-plus"></i> Tambah
+                    </button>
                 </div>
-                <div class="input-group">
-                    <label for="title-input"><i class="fas fa-pencil-alt"></i> Judul Tugas</label>
-                    <input type="text" id="title-input" placeholder="Deskripsi tugas yang akan dikerjakan...">
-                </div>
-                <div class="input-group">
-                    <label for="date-input"><i class="fas fa-calendar-alt"></i> Tenggat Waktu</label>
-                    <input type="date" id="date-input">
-                </div>
-                <button id="save-btn" class="save-btn">
-                    <i class="fas fa-plus"></i> Tambah Tugas
-                </button>
             </div>
 
             <div class="tasks-section">
@@ -47,4 +49,5 @@
 
     <script src="keyza.js"></script>
 </body>
+
 </html>
